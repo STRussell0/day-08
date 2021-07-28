@@ -1,3 +1,7 @@
+const title = document.createElement('h1');
+title.innerHTML = 'Take Home Challenge';
+document.body.appendChild(title);
+
 class car { //created a class named car
 
     constructor (make, model, year, color) { //constructor used

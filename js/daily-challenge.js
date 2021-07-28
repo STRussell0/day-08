@@ -1,7 +1,10 @@
+const title1 = document.getElementById('title');
+title1.innerHTML = 'Daily Challenge';
+
 const dog = { //created an object named dog
     name: 'Bowie', //gave it a few properties
     legs: 5,
-    furColor: 'yes',
+    furColor: 'red',
     speak: function() { //created a function so it can speak when called upon
         alert('Woof!');
     },
