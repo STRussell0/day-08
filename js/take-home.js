@@ -22,7 +22,7 @@ cars.forEach( (car) => { //for each item in the cars array...
     const li = document.createElement('li'); //...create a list item and append it to the doc
     listElement.appendChild(li);
     //the inner text of each list item is each objects property
-    li.innerText = `${car.color} ${car.year} ${car.make} ${car.model} 
-
+    li.innerText = `${car.color} ${car.year} ${car.make} ${car.model}
+    
     `;
 })
